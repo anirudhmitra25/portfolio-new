@@ -77,6 +77,7 @@ export const projectsData = [
   },
   {
     title: "Portfolio Website",
+    link:"",
     description:
       "Developed a sleek and responsive portfolio website, showcasing a creative and professional presentation of personal projects and skills",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer"],
