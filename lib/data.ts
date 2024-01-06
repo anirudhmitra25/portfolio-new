@@ -87,6 +87,7 @@ export const projectsData = [
   {
     title: "Furnify",
     description:"Created a React Native e-commerce app for seamless and user-friendly mobile shopping experiences.",
+    link:"https://github.com/anirudhmitra25/Ecommerce-App",
     tags: ["React Native", "MobX"],
     imageUrl: ecommApp,
   },
