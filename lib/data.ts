@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import SortingVisualizer from "@/public/Sorting-visualizer.png";
 import portfolioPreview from "@/public/portfolio-preview.png";
+import ecommApp from '@/public/Ecom-app.png'
 
 export const links = [
   {
@@ -33,10 +34,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Engineering",
+    title: "Btech (Information Technology)",
     location: "Manipal, IN",
     description:
-      "I graduated from Manipal Institute of Technology completing my degree in BTech (Information Technology)",
+      "I graduated from Manipal Institute of Technology completing my degree in engineering (Information Technology). Was a part of the photography club where I served as the Head of Human resources. I was also a part of the organising committee of two major fests of our college",
     icon: React.createElement(LuGraduationCap),
     date: "2017 - 2021",
   },
@@ -83,13 +84,12 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer"],
     imageUrl: portfolioPreview,
   },
-  // {
-  //   title: "React native app",
-  //   description:
-  //     "in progress",
-  //   tags: ["React Native"],
-  //   imageUrl: '',
-  // },
+  {
+    title: "Furnify",
+    description:"Created a React Native e-commerce app for seamless and user-friendly mobile shopping experiences.",
+    tags: ["React Native", "MobX"],
+    imageUrl: ecommApp,
+  },
 ] as const;
 
 export const skillsData = [
