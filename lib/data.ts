@@ -3,7 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import SortingVisualizer from "@/public/Sorting-visualizer.png";
 import portfolioPreview from "@/public/portfolio-preview.png";
-import ecommApp from '@/public/Ecom-app.png'
+import ecommApp from "@/public/Ecom-app.png";
+import grooveTube from "@/public/grooveTube.png";
 
 export const links = [
   {
@@ -78,7 +79,7 @@ export const projectsData = [
   },
   {
     title: "Portfolio Website",
-    link:"",
+    link: "",
     description:
       "Developed a sleek and responsive portfolio website, showcasing a creative and professional presentation of personal projects and skills",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer"],
@@ -86,10 +87,19 @@ export const projectsData = [
   },
   {
     title: "Furnify",
-    description:"Created a React Native e-commerce app for seamless and user-friendly mobile shopping experiences.",
-    link:"https://github.com/anirudhmitra25/Ecommerce-App",
+    description:
+      "Created a React Native e-commerce app for seamless and user-friendly mobile shopping experiences.",
+    link: "https://github.com/anirudhmitra25/Ecommerce-App",
     tags: ["React Native", "MobX"],
     imageUrl: ecommApp,
+  },
+  {
+    title: "GrooveTube",
+    description:
+      "A react-based video app that allows you to seamlessly enjoy and control your favorite videos.",
+    link: "https://groove-tube.vercel.app/",
+    tags: ["React", "Redux", "Framer", "Tailwind"],
+    imageUrl: grooveTube,
   },
 ] as const;
 
