@@ -5,6 +5,7 @@ import SortingVisualizer from "@/public/Sorting-visualizer.png";
 import portfolioPreview from "@/public/portfolio-preview.png";
 import ecommApp from "@/public/Ecom-app.png";
 import grooveTube from "@/public/grooveTube.png";
+import dashboard from "@/public/dashboard.png";
 
 export const links = [
   {
@@ -78,12 +79,12 @@ export const projectsData = [
     imageUrl: SortingVisualizer,
   },
   {
-    title: "Portfolio Website",
-    link: "",
+    title: "Dashboard",
     description:
-      "Developed a sleek and responsive portfolio website, showcasing a creative and professional presentation of personal projects and skills",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer"],
-    imageUrl: portfolioPreview,
+      "A dynamic dashboard application which provides users with a comprehensive visualization of data with interactive charts, maps, and widgets.",
+    link: "https://bcg-dashboard.vercel.app/",
+    tags: ["React", "Redux", "Framer", "Tailwind", "Leaflet", "Apex charts"],
+    imageUrl: dashboard,
   },
   {
     title: "Furnify",
@@ -100,6 +101,14 @@ export const projectsData = [
     link: "https://groove-tube.vercel.app/",
     tags: ["React", "Redux", "Framer", "Tailwind"],
     imageUrl: grooveTube,
+  },
+  {
+    title: "Portfolio Website",
+    link: "",
+    description:
+      "Developed a sleek and responsive portfolio website, showcasing a creative and professional presentation of personal projects and skills",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer"],
+    imageUrl: portfolioPreview,
   },
 ] as const;
 
