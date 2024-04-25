@@ -6,6 +6,7 @@ import portfolioPreview from "@/public/portfolio-preview.png";
 import ecommApp from "@/public/Ecom-app.png";
 import grooveTube from "@/public/grooveTube.png";
 import dashboard from "@/public/dashboard.png";
+import movieApp from "@/public/movieApp.jpeg";
 
 export const links = [
   {
@@ -101,6 +102,14 @@ export const projectsData = [
     link: "https://groove-tube.vercel.app/",
     tags: ["React", "Redux", "Framer", "Tailwind"],
     imageUrl: grooveTube,
+  },
+  {
+    title: "Movieflix",
+    link: "https://github.com/anirudhmitra25/MovieFlix",
+    description:
+      "This is a mobile application developed using React Native and Redux, powered by the TMDb API. The app allows users to browse movies, view details, search for movies, and filter by genre.",
+    tags: ["React Native", "TypeScript"],
+    imageUrl: movieApp,
   },
   {
     title: "Portfolio Website",
