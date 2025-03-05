@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import SortingVisualizer from "@/public/Sorting-visualizer.png";
-import portfolioPreview from "@/public/portfolio-preview.png";
+import videoEditorPreview from "@/public/video-editor.png";
 import ecommApp from "@/public/Ecom-app.png";
 import grooveTube from "@/public/grooveTube.png";
 import dashboard from "@/public/dashboard.png";
@@ -72,6 +72,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Video Editor",
+    link: "https://video-editor-dun.vercel.app/",
+    description:
+      "Developed a feature-rich video editor using React, TypeScript, Fabric.js, and Redux, enabling users to create and edit videos with a timeline-based interface.",
+    tags: ["React", "TypeScript", "Fabric", "Tailwind", "Redux"],
+    imageUrl: videoEditorPreview,
+  },
+  {
     title: "Sorting Visualizer",
     link: "https://sorting-visualizer-anirudh.netlify.app/",
     description:
@@ -88,14 +96,6 @@ export const projectsData = [
     imageUrl: dashboard,
   },
   {
-    title: "Furnify",
-    description:
-      "Created a React Native e-commerce app for seamless and user-friendly mobile shopping experiences.",
-    link: "https://github.com/anirudhmitra25/Ecommerce-App",
-    tags: ["React Native", "MobX"],
-    imageUrl: ecommApp,
-  },
-  {
     title: "GrooveTube",
     description:
       "A react-based video app that allows you to seamlessly enjoy and control your favorite videos.",
@@ -110,14 +110,6 @@ export const projectsData = [
       "This is a mobile application developed using React Native and Redux, powered by the TMDb API. The app allows users to browse movies, view details, search for movies, and filter by genre.",
     tags: ["React Native", "TypeScript"],
     imageUrl: movieApp,
-  },
-  {
-    title: "Portfolio Website",
-    link: "",
-    description:
-      "Developed a sleek and responsive portfolio website, showcasing a creative and professional presentation of personal projects and skills",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer"],
-    imageUrl: portfolioPreview,
   },
 ] as const;
 
